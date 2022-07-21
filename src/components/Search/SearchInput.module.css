@@ -1,0 +1,32 @@
+.search_container form {
+  display: flex;
+  justify-content: center;  
+}
+
+.search_container input.search_box {
+  background-color: #616161;
+  color: white;
+  padding: 1rem;
+  font-size: 2rem;
+  flex-grow: 10;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border-radius: 1rem;
+  margin-right: 1rem;
+}
+
+.search_container input.search_box:focus {
+  border: 0.1rem solid #fff;
+}
+
+.search_container button {
+  background-color: #616161;
+  color: white;
+  padding: 1rem;
+  font-size: 2rem;
+  flex-grow: 1;
+  outline: none;
+  border: 0.1rem solid white;
+  border-radius: 1rem;
+}
